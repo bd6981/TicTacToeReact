@@ -18,7 +18,7 @@ function App() {
     } else {
       setPlayer("X");
     }
-  }, [board, player, checkWin, checkIfTie]);
+  });
 
   useEffect(() => {
     if (result.state !== "none") {

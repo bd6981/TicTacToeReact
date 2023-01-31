@@ -5,9 +5,9 @@ import App from './App';
 
 ReactDOM.createRoot(
 
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ 
+    <App />,
+
   document.getElementById('root'));
 
 
